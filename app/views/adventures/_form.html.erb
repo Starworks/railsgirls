@@ -14,6 +14,19 @@
   <div class="field">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
+    <div class="alert alert-danger" role="alert">We're out of ice cream</div>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :picture %><br>
+    <%= f.text_field :picture %>
+  </div>
+  <div class="field">
+    <%= f.label :visit %><br>
+    <%= f.date_select :visit %>
   </div>
   <div class="actions">
     <%= f.submit %>
